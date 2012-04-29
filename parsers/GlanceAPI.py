@@ -29,7 +29,7 @@ import re
 from logster_helper import MetricObject, LogsterParser
 from logster_helper import LogsterParsingException
 
-class SampleLogster(LogsterParser):
+class GlanceAPI(LogsterParser):
 
     def __init__(self, option_string=None):
         '''Initialize any data structures or variables needed for keeping track
